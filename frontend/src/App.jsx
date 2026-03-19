@@ -3,7 +3,9 @@ import axios from 'axios';
 import { BrainCircuit, Loader2, BookOpen, Sparkles, CheckCircle2, XCircle, Info, Settings } from 'lucide-react';
 import QuestionCard from './components/QuestionCard';
 
-const API_BASE = import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/api` : '/api';
+const API_BASE = import.meta.env.VITE_API_URL 
+  ? `${import.meta.env.VITE_API_URL}/api` 
+  : (window.location.hostname === 'localhost' ? 'http://localhost:5000/api' : '/api');
 
 function App() {
   const [questions, setQuestions] = useState([]);
@@ -14,7 +16,11 @@ function App() {
   // Settings & Configuration
   const [showSettings, setShowSettings] = useState(false);
   const [apiKey, setApiKey] = useState(() => localStorage.getItem('plaquiz_api_key') || '');
-  const [aiModel, setAiModel] = useState(() => localStorage.getItem('plaquiz_model') || 'openai/gpt-3.5-turbo');
+  const [aiModel, setAiModel] = useState(() => {
+    const saved = localStorage.getItem('plaquiz_model');
+    const allowed = ['openai/gpt-oss-20b:free', 'openai/gpt-oss-120b:free', 'z-ai/glm-4.5-air:free'];
+    return allowed.includes(saved) ? saved : 'openai/gpt-oss-20b:free';
+  });
 
   // Pagination & Batch Solving
   const [currentPage, setCurrentPage] = useState(0);
@@ -31,29 +37,32 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (questions.length > 0) {
+    if (apiKey && questions.length > 0) {
       preSolveCurrentBatch();
       preFetchNextBatch();
     }
-  }, [currentPage, questions]);
+  }, [currentPage, questions, apiKey]);
 
   const fetchQuestions = async () => {
     try {
       setLoading(true);
       const res = await axios.get(`${API_BASE}/questions`);
-      setQuestions(res.data);
+      setQuestions(Array.isArray(res.data) ? res.data : []);
     } catch (err) {
       console.error("Error fetching questions:", err);
+      setQuestions([]);
     } finally {
       setLoading(false);
     }
   };
 
   const solveBatchInternal = async (batch) => {
+    if (!Array.isArray(batch)) return;
     const unsolvedInBatch = batch.filter(q => !solutions[q.id]);
     if (unsolvedInBatch.length === 0) return;
 
     try {
+      console.log(`[solveBatchInternal] Triggered for ${batch.length} questions. API Key present: ${!!apiKey} (${apiKey?.length} chars)`);
       const res = await axios.post(`${API_BASE}/solve-batch`, { 
         questions: batch,
         apiKey: apiKey,
@@ -65,7 +74,7 @@ function App() {
       });
       setSolutions(prev => ({ ...prev, ...newSolutions }));
     } catch (err) {
-      console.error("Error solving batch:", err);
+      console.error("Error solving batch:", err.response?.data?.details || err.response?.data?.error || err.message);
     }
   };
 
@@ -112,7 +121,9 @@ function App() {
     }
   };
 
-  const currentQuestions = questions.slice(currentPage * questionsPerPage, (currentPage + 1) * questionsPerPage);
+  const currentQuestions = Array.isArray(questions) 
+    ? questions.slice(currentPage * questionsPerPage, (currentPage + 1) * questionsPerPage)
+    : [];
   
   const score = Object.keys(solutions).reduce((acc, qId) => {
     if (userAnswers[qId] === solutions[qId]?.correctAnswer) return acc + 1;
@@ -183,12 +194,9 @@ function App() {
                       onChange={(e) => setAiModel(e.target.value)}
                       className="w-full bg-background/50 border border-border p-4 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all font-bold"
                     >
-                      <option value="openai/gpt-3.5-turbo">GPT-3.5 Turbo (Standard)</option>
-                      <option value="google/gemini-2.0-flash-001">Gemini 2.0 Flash (Fastest)</option>
                       <option value="openai/gpt-oss-20b:free">GPT OSS 20B (Free)</option>
                       <option value="openai/gpt-oss-120b:free">GPT OSS 120B (Free - Powerful)</option>
                       <option value="z-ai/glm-4.5-air:free">GLM 4.5 Air (Free - Detailed)</option>
-                      <option value="meta-llama/llama-3-8b-instruct">Llama 3 8B (Reliable)</option>
                     </select>
                   </div>
 
@@ -265,12 +273,9 @@ function App() {
                     onChange={(e) => setAiModel(e.target.value)}
                     className="w-full bg-background/50 border border-border p-4 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all font-bold"
                   >
-                    <option value="openai/gpt-3.5-turbo">GPT-3.5 Turbo (Standard)</option>
-                    <option value="google/gemini-2.0-flash-001">Gemini 2.0 Flash (Fastest)</option>
                     <option value="openai/gpt-oss-20b:free">GPT OSS 20B (Free)</option>
                     <option value="openai/gpt-oss-120b:free">GPT OSS 120B (Free - Powerful)</option>
                     <option value="z-ai/glm-4.5-air:free">GLM 4.5 Air (Free - Detailed)</option>
-                    <option value="meta-llama/llama-3-8b-instruct">Llama 3 8B (Reliable)</option>
                   </select>
                 </div>
 
