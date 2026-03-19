@@ -3,7 +3,7 @@ import axios from 'axios';
 import { BrainCircuit, Loader2, BookOpen, Sparkles, CheckCircle2, XCircle, Info, Settings } from 'lucide-react';
 import QuestionCard from './components/QuestionCard';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = window.location.hostname === 'localhost' ? 'http://localhost:5000/api' : '/api';
 
 function App() {
   const [questions, setQuestions] = useState([]);
