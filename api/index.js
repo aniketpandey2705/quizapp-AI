@@ -62,8 +62,10 @@ const processQueue = async () => {
       const headerApiKey = req.headers['x-api-key'];
       const headerModel = req.headers['x-model'];
 
-      const model = (bodyModel || headerModel || 'openai/gpt-3.5-turbo');
+      const model = (bodyModel || headerModel || 'openai/gpt-oss-20b:free');
       const apiKey = (bodyApiKey || headerApiKey || null);
+
+      console.log(`[solve-batch] Received Request. Key Present: ${!!apiKey} (${apiKey?.length} chars). Model: ${model}`);
 
       if (!apiKey || apiKey === 'undefined' || apiKey === '') {
         const bodyKeys = Object.keys(req.body || {}).join(', ');
@@ -79,7 +81,18 @@ const processQueue = async () => {
         promptText += `\nQuestion ID: ${q.id}\nText: ${q.text}\nOptions:\n${q.options ? q.options.join(', ') : "None"}\n---`;
       });
 
-      const completion = await openai.chat.completions.create({
+      // Create a fresh client and MANUALLY force the Authorization header
+      const dynamicClient = new OpenAI({
+        baseURL: "https://openrouter.ai/api/v1",
+        apiKey: apiKey, 
+        defaultHeaders: {
+          "Authorization": `Bearer ${apiKey}`,
+          "HTTP-Referer": "https://quizapp-ai.vercel.app",
+          "X-Title": "Plaquiz AI",
+        }
+      });
+
+      const completion = await dynamicClient.chat.completions.create({
         model: model,
         max_tokens: 3000,
         temperature: 0.1,
@@ -87,8 +100,6 @@ const processQueue = async () => {
           { role: "system", content: "You are a specialized mathematical assistant that returns strictly valid JSON arrays. Do not add conversational text. Ensure every JSON object is complete and valid." },
           { role: "user", content: promptText }
         ],
-      }, {
-        apiKey: apiKey // Dynamically use the key from the request headers
       });
 
       const message = completion.choices[0]?.message;
