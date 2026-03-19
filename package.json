@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev:frontend": "cd frontend && npm run dev",
-    "dev:backend": "cd backend && node server.js",
+    "dev:backend": "node api/index.js",
     "build:frontend": "cd frontend && npm install && npm run build",
-    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+    "install:all": "npm install && cd frontend && npm install",
+    "parse": "node scripts/parse.js"
   },
   "dependencies": {
     "express": "^4.19.2",

@@ -6,7 +6,9 @@ const path = require('path');
 const { OpenAI } = require('openai');
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: ["https://quizapp-ai.vercel.app", "http://localhost:5173", "http://localhost:3000"]
+}));
 app.use(express.json());
 
 const openai = new OpenAI({
@@ -146,5 +148,12 @@ app.post('/api/solve-batch', (req, res) => {
       res.status(error.status || 500).json({ error: "Failed to generate solution", details: error.message });
     });
 });
+
+const PORT = process.env.PORT || 5000;
+if (require.main === module || process.env.NODE_ENV !== 'production') {
+  app.listen(PORT, () => {
+    console.log(`Server running locally on port ${PORT}`);
+  });
+}
 
 module.exports = app;
