@@ -81,6 +81,8 @@ const processQueue = async () => {
           { role: "system", content: "You are a specialized mathematical assistant that returns strictly valid JSON arrays. Do not add conversational text. Ensure every JSON object is complete and valid." },
           { role: "user", content: promptText }
         ],
+      }, {
+        apiKey: apiKey // Dynamically use the key from the request headers
       });
 
       const message = completion.choices[0]?.message;
