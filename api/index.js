@@ -7,16 +7,17 @@ const { OpenAI } = require('openai');
 
 const app = express();
 app.use(cors({
-  origin: ["https://quizapp-ai.vercel.app", "http://localhost:5173", "http://localhost:3000"]
+  origin: ["https://quizapp-ai.vercel.app", "http://localhost:5173", "http://localhost:3000"],
+  allowedHeaders: ["Content-Type", "x-api-key", "x-model"]
 }));
 app.use(express.json());
 
 const openai = new OpenAI({
   baseURL: "https://openrouter.ai/api/v1",
-  apiKey: process.env.OPENROUTER_API_KEY || 'dummy_key',
+  apiKey: "MANUAL_ENTRY_REQUIRED", // Use the key from the frontend headers instead
   defaultHeaders: {
     "HTTP-Referer": "https://quizapp-ai.vercel.app",
-    "X-Title": "Plaquiz",
+    "X-Title": "Plaquiz AI",
   }
 });
 
@@ -58,11 +59,11 @@ const processQueue = async () => {
       const headerApiKey = req.headers['x-api-key'];
       const headerModel = req.headers['x-model'];
 
-      const model = (headerModel && headerModel !== 'undefined') ? headerModel : (process.env.OPENROUTER_MODEL || 'openai/gpt-3.5-turbo');
-      const apiKey = (headerApiKey && headerApiKey !== 'undefined') ? headerApiKey : process.env.OPENROUTER_API_KEY;
+      const model = (headerModel && headerModel !== 'undefined' && headerModel !== '') ? headerModel : 'openai/gpt-3.5-turbo';
+      const apiKey = (headerApiKey && headerApiKey !== 'undefined' && headerApiKey !== '') ? headerApiKey : null;
 
-      if (!apiKey || apiKey === 'your_openrouter_api_key_here') {
-        const err = new Error("Invalid or missing OPENROUTER_API_KEY. Please provide it in Settings.");
+      if (!apiKey) {
+        const err = new Error("AI Setup Required: Please provide your API Key in Settings.");
         err.status = 401;
         throw err;
       }
