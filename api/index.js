@@ -56,14 +56,17 @@ const processQueue = async () => {
     }
 
     if (questionsToSolve.length > 0) {
+      // Check both body and headers for flexibility
+      const bodyApiKey = req.body.apiKey;
+      const bodyModel = req.body.aiModel;
       const headerApiKey = req.headers['x-api-key'];
       const headerModel = req.headers['x-model'];
 
-      const model = (headerModel && headerModel !== 'undefined' && headerModel !== '') ? headerModel : 'openai/gpt-3.5-turbo';
-      const apiKey = (headerApiKey && headerApiKey !== 'undefined' && headerApiKey !== '') ? headerApiKey : null;
+      const model = (bodyModel || headerModel || 'openai/gpt-3.5-turbo');
+      const apiKey = (bodyApiKey || headerApiKey || null);
 
-      if (!apiKey) {
-        const err = new Error("AI Setup Required: Please provide your API Key in Settings.");
+      if (!apiKey || apiKey === 'undefined' || apiKey === '') {
+        const err = new Error("AI Setup Required: Please ensure your API Key is saved in Settings.");
         err.status = 401;
         throw err;
       }

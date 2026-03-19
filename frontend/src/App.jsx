@@ -54,11 +54,11 @@ function App() {
     if (unsolvedInBatch.length === 0) return;
 
     try {
-      const headers = {};
-      if (apiKey) headers['x-api-key'] = apiKey;
-      if (aiModel) headers['x-model'] = aiModel;
-
-      const res = await axios.post(`${API_BASE}/solve-batch`, { questions: batch }, { headers });
+      const res = await axios.post(`${API_BASE}/solve-batch`, { 
+        questions: batch,
+        apiKey: apiKey,
+        aiModel: aiModel 
+      });
       const newSolutions = {};
       res.data.results.forEach(sol => {
         newSolutions[sol.id] = sol;
