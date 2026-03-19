@@ -1,0 +1,848 @@
+Express 108.33…% as a fraction.
+*
+1 point
+44990
+13/12
+27/25
+108/100
+A + B = 50. Then A increases by 15 percent and B decreases by 20 percent. What is the value of B if A – B = 38 after the change?
+*
+1 point
+5
+10
+8
+40
+In a group of 200 people, the average salary is $50,000. The average salary of the men is $55,000, while the average salary of the women is $45,000. How many men are there in the group?
+*
+1 point
+125
+90
+100
+120
+A jar full of whisky contains 40% alcohol. A part of this whisky is replaced by another containing 19% alcohol and now the percentage of alcohol was found to be 26%. The quantity of whisky replaced is:
+*
+1 point
+1/3
+2/3
+2/5
+3/5
+Alpana started a business investing Rs. 45,000. After 3 months Priyanka joined her with a capital of Rs. 60,000. After another 6 months Kalpana joined them with a capital of Rs. 90,000. At the end of the year, they made a profit of Rs. 16,500. Find the share of Kalpana.
+*
+1 point
+Rs.3800
+Rs. 2100
+Rs. 3300
+Rs. 3500
+Kavi and Bavi started a business with the investment of Rs.(x – 2000) and Rs.(x + 1000) respectively. After one year, Bavi withdrew 25% of her investment. At the end of two years, the total profit of the business is Rs.2400 and the profit share of A is Rs.1000. Find the value of x?
+*
+1 point
+8000
+7000
+5000
+6000
+Given : Three numbers 17, 42 and 93
+ Find the largest number to divide all the three numbers leaving the remainders 4, 3, and 15 respectively at the end?
+*
+1 point
+10
+12
+13
+14
+The HCF of two numbers is 23 and the other two factors of their LCM are 13 and 14. The larger of the two numbers is:
+*
+1 point
+299
+276
+322
+345
+The least square number which divides 8, 12 and 18 is?
+*
+1 point
+144
+64
+100
+121
+What is the remainder when (1! + 2! + 3!+...100!) is divided by 5?
+*
+1 point
+3
+1
+4
+2
+If the number 517*324 is completely divisible by 3, then the smallest whole number in the place of * will be:
+*
+1 point
+2
+1
+None of these
+A and B started a business with the investment of Rs.6000 and Rs.8000 respectively. After x months, A added Rs.2000 and B added Rs.1000 with their initial investment. At the end of one year, total profit is Rs.4800 and A’s profit share is Rs.2200. Find the value of x.
+*
+1 point
+3
+8
+6
+4
+P starts business with Rs.4500 and after 9 months, Q joins with P as his partner. After a year, the profit divided in the 3 : 5. What is Q's contribution in the capital?
+*
+1 point
+Rs.20,000
+Rs.10,000
+Rs.30,000
+Rs. 5,000
+A bag contains a total of 93 coins in the form of one rupee and 50 paise coins. If the total value of coins in the bag is Rs.56, find the number of 50 paise coins in the bag?
+*
+1 point
+74
+70
+64
+60
+In ratio a : b, the second term b is called as _________.
+*
+1 point
+antecedent
+consequent
+extreme
+mean
+The average score of a cricketer for ten matches is 38.9 runs. If the average for the first six matches is 42, then find the average for the last four matches.
+*
+1 point
+33
+37
+31
+34
+The tens digit of a two-digit number is two more than its unit digit. The two-digit number is 7 times the sum of the digits. Find the units digits?
+*
+1 point
+3
+1
+4
+2
+A dishonest milkman professes to sell his milk at cost price but he mixes it with water and thereby gains 25%. The percentage of water in the mixture is:
+*
+1 point
+0.04
+0.2
+0.25
+0.06
+If 5.51*10^k = 0.0551, then the value of k is _____.
+*
+1 point
+-2
+-4
+-1
+-3
+A student erroneously multiplied a number by 2/5 instead of 5/2.What is the percentage error in the calculation?
+*
+1 point
+0.74
+0.24
+0.54
+0.84
+What is the unit digit in {(6374)^1793 x (625)^317 x (341^491)}?
+*
+1 point
+4
+1
+8
+0
+Six years ago, the ratio of the ages of Kunal and Sagar was 6 : 5. Four years hence, the ratio of their ages will be 11 : 10. What is Sagar's age at present?
+*
+1 point
+Cannot be determined
+16 years
+18 years
+20 years
+The least number which when 3 is added to it is completely divided by 8, 12 and 18 is?
+*
+1 point
+69
+71
+70
+58
+A company instead of raising the mark-up by 20% discounted the cost price by 20% while stiching the price tag on its product. Further the company offers a discount of 6.25% to its customer. In this process company incurs a loss of Rs. 37.5 on a single article. What is the selling price of that article?
+*
+1 point
+365.5
+none of these
+417.5
+112.5
+Simplify: 13.05 × 4.5 ÷ 0.5
+*
+1 point
+115.5
+112.32
+117.45
+120.6
+A shopkeeper gives a discount of 5%. If he gives a discount of 8%, then he earns Rs. 18 less. What is the marked price of the article?
+*
+1 point
+550
+700
+500
+600
+The average of 9 numbers is 24. If the average of the first 4 numbers is 22 and the average of the last 4 numbers is 26, what is the 5th number?
+*
+1 point
+32
+36
+24
+20
+What is the fraction of decimal value 87.00013?(In Mixed fraction)
+*
+1 point
+13/100087
+87/100013
+87 13/100000
+13 87/100000
+The greatest number of five digits which is divisible by 32, 36, 40, 42 and 48 is ______.
+*
+1 point
+90725
+90720
+90715
+90730
+Which of the following is largest fraction amongst 5/8, 3/7, 2/9, 4/5?
+*
+1 point
+3/7
+5/8
+4/5
+All are equal
+A and B start a business. A invests Rs ‘X’ and B invests Rs 45000. 9 months later A withdraws half the amount. The profit received by A at the end of 1 year is 22.22% less than that of B. What is the value of ‘X’?
+*
+1 point
+43000
+42000
+40000
+45000
+Find the remainder when 21^21 +23^21 Divided by 11
+*
+1 point
+2
+1
+3
+0
+The cost of 2 chairs and 3 tables is Rs.1300. The cost of 3 chairs and 2 tables is Rs.1200. The cost of each table is more than that of each chair by ______.
+*
+1 point
+Rs.100
+Rs.75
+Rs.70
+Rs.50
+Find the remainder when 421^421 Divided by 7
+*
+1 point
+6
+1
+2
+4
+Find the value in the place of question mark?
+ ?/√64 = 150
+*
+1 point
+1250
+1200
+2500
+1500
+The sum of three numbers is 98. If the ratio of the first to the second is 2 :3 and that of the second to the third is 5 : 8, then the second number is ________.
+*
+1 point
+20
+50
+30
+48
+HCF of 3/16, 5/12, 7/8 is:
+*
+1 point
+5/48
+1/48
+3/47
+2/47
+Sudhir and Tushar invested Rs. x and Rs. 3x respectively in a business. The time periods of Sudhir and Tushar is in the ratio 2 : 3. If the profit share of Tushar is Rs. 270000, then find the total profit if they continue the business for 3 more years?
+*
+1 point
+. Rs. 330000
+Rs. 1320000
+. Rs. 660000
+Rs. 1640000
+There are two types of sugar. One is priced at Rs 62 per kg and the other is priced at Rs 72 per kg. If the two types are mixed together, the price of new mixture will be Rs 64.50 per kg. Find the ratio of the two types of sugar in this new mixture.
+*
+1 point
+3:1
+7:6
+2:5
+6:7
+The average age of 40 students in a class is 15 years. The average age of the boys is 16 years, and the average age of the girls is 14 years. How many boys are there in the class?
+*
+1 point
+20
+25
+15
+30
+Find the ratio in which rice at Rs. 7.20 a kg be mixed with rice at Rs. 5.70 a kg to produce a mixture worth Rs. 6.30 a kg
+*
+1 point
+4:5
+1:3
+3:4
+2:3
+How many kg of rice, of cost 9 Rs/kg must be mixed with 27 kg of rice of cost 7 Rs/kg get a gain of 10 % by selling the mixture at 9.24 Rs/kg?
+*
+1 point
+63
+60
+71
+75
+Find the remainder when 363^364 Divided by 7
+*
+1 point
+4
+1
+2
+3
+16.67% of which amount is Rs 200?
+*
+1 point
+1400 Rs
+1200 Rs
+1800 Rs
+1500 Rs
+A man purchases 5 tables and 10 chairs for Rs.20,000. He sells the tables at 15% profit and the chairs at 10% loss. His overall profit is Rs.750. How much did he buy one table for
+*
+1 point
+Rs.2200
+Rs.900
+Rs.2000
+Rs.2600
+Find the value in the place of question mark?
+ 
+ (0.001× ? )/ (200×0.002) = 40
+*
+1 point
+8000000
+16000
+1600000
+None of these
+Which of the following fraction is smallest?
+*
+1 point
+14/15
+21/24
+23/28
+15/19
+The numerator of a certain fraction is 8 less than the denominator. If 3 is added to the numerator and 3 is subtracted from the denominator, the fraction becomes 3/4. Find the original fraction?
+*
+1 point
+2/5
+7/9
+3/11
+8/5
+In a : b = c : d, b and c are called as _______.
+*
+1 point
+consequent
+mean
+extreme
+antecedent
+Three numbers are in the ratio of 3 : 4 : 5 and their L.C.M. is 2400. Their H.C.F. is:
+*
+1 point
+50
+40
+70
+30
+A man sells 5 articles for Rs.15 and makes a profit of 20%. Find his gain or loss percent if he sells 8 such articles for Rs.18.40.
+*
+1 point
+8% loss
+2.22% loss
+2.22% profit
+8% profit
+A dishonest shopkeeper, at the time of selling and purchasing, weighs 10% less and 20% more per kilogram respectively. Find the percentage profit earned by treachery. (assuming he sells at Cost Price)
+*
+1 point
+0.2
+0.3
+0.3333
+0.25
+A merchant sells rice to a customer using false weights and gains 25% on selling at cost Price. What weight would a customer receive instead of a kilogram?
+*
+1 point
+900 grams
+850 grams
+800 grams
+750 grams
+What is the unit digit of the sum of first 111 whole numbers?
+*
+1 point
+6
+4
+5
+The least number which when divided by 8, 12 and 16, leave in each remainder 3, is?
+*
+1 point
+71
+70
+51
+69
+A fruit seller always purchased mangoes in prime number. One particular day he purchased mangoes between 50-60 and gives 4 mangoes to his son. After selling the rest mangoes which was also above 50, he gained a profit which is equal to selling price of 4 mangoes. Find his profit percentage.
+*
+1 point
+0.147
+0.157
+0.177
+0.167
+The product of two numbers is 4107. If the HCF of these numbers is 37, then the greater number is:
+*
+1 point
+185
+107
+101
+111
+Four bells begin to toll together respectively at the intervals of 8, 10, 12 and 16 seconds. After how many seconds will they toll together again?
+*
+1 point
+240 seconds
+243 seconds
+246 seconds
+242 seconds
+A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A's share is Rs. 855, the total profit is:
+*
+1 point
+Rs. 1576
+Rs. 1425
+Rs. 1537.50
+Rs. 1500
+The difference between two numbers is 1146. When we divide the larger number by smaller we get 4 as quotient and 6 as remainder.Find the larger number
+*
+1 point
+1485
+1526
+1432
+1431
+If the number 46490# is exactly divisible by 72,then the minimum value of # is _________.
+*
+1 point
+8
+7
+1
+4
+When the price of an article was reduced by 20% its sale increased by 80%. What was the net effect on the revenue
+*
+1 point
+44% Increase
+66%Increase
+66% decrease
+44% decrease
+Find the remainder when 23^21 - 21^21 Divided by 2
+*
+1 point
+-1
+2
+1
+0
+The average of 3, 8, 9 and x is 6 and the average of 17, 2, 5, x and y is 8. What is the value of y?
+*
+1 point
+20
+5
+30
+12
+P and Q entered into a partnership by investing Rs.1600 and Rs.1800 respectively and time period for P’s investment is 3 months more than that for Q’s investment. If profit share of Q is 78.75% of that of P, then find the time period for P’s investment?
+*
+1 point
+8 Months
+10 Months
+9 Months
+12 Months
+20% discount is offered on an item. By applying a promo code the customer wins 15% cash back. What is the effective discount?
+*
+1 point
+12 percent
+30 percent
+32 percent...
+30.8 percent...
+A man sells an item for 700 and makes some profit. Then he sells the same item for 500 and his loss is 3/5th of the earlier profit. What is his approximate loss percentage in the second transaction?
+*
+1 point
+Data insufficient
+11.5
+15
+13
+A fruit seller had some oranges. He sells 30% oranges and still has 140 oranges. Originally, he had:
+*
+1 point
+200 oranges
+672 oranges
+300 oranges
+288 oranges
+In a series of six consecutive even numbers, the sum of the second and sixth numbers is 24. What is the fourth number?
+*
+1 point
+14
+8
+12
+6
+Saransh is 50 years old and Nazma is 40 years old. How long ago was the ratio of their ages 3:2?
+*
+1 point
+25 years
+20 years
+30 years
+40 years
+A merchant marks his goods at Rs. 900 and allows a discount of 25%. If he still gain 12.5%, then the cost price of the article is:
+*
+1 point
+Rs. 720
+Rs. Cannot be determined
+Rs. 600
+Rs. 500
+A man sells sugar to a tradesman at a profit of 20%, but tradesman, becoming bankrupt, pays only 72 paise per rupee. How much percent does the man gain or lose by his sale?
+*
+1 point
+15% profit
+12% profit
+86.4% loss
+13.6% loss
+The greatest number of four digits which is divisible by 15, 25, 40 and 75 is:
+*
+1 point
+9400
+9600
+9200
+9800
+The HCF of two numbers is 11 and their LCM is 7700. If one of the number is 275,then the other number is:
+*
+1 point
+283
+318
+308
+279
+Find the greatest number that will divide 43, 91 and 183 so as to leave the same remainder in each case.
+*
+1 point
+3
+7
+5
+4
+The average age of A and B is 24 years. The average age of B and C is 26 years, and the average age of A and C is 28 years. What is the age of B?
+*
+1 point
+22
+26
+30
+28
+The average of three numbers x, y, and z is 30. If a fourth number w is added to the set, the average of the four numbers becomes 32. Find the value of w.
+*
+1 point
+10
+38
+30
+120
+Find the average of the first 8 multiples of 7.
+*
+1 point
+25
+31.5
+30
+28
+The ages of Ram and Anu are in the ratio 2 : 3. 15 years hence, the ratio of their ages will be 3 : 4. Find the present age of Anu.
+*
+1 point
+45
+15
+30
+60
+If M = y% of z and B = z% of y, then which of the following must be true?
+*
+1 point
+M is more than N
+None of these
+Relation between M and N cannot be determined
+M is lesser than N
+A city has a population of 300000 out of which 180000 are males. 50% of the population are illiterate and if 70 % of the males are literate, then the number of literate females is:
+*
+1 point
+16000
+36000
+2400
+24000
+A, B and C started the business with the investment in the ratio of 2:3:1. After 6 months, B left the business. At the end of the year, the total profit of the business is Rs.3600, then find the profit share of C?
+*
+1 point
+Rs.900
+Rs.1000
+Rs.800
+Rs.1200
+Find the remainder when 32^32^32 Divided by 7
+*
+1 point
+2
+4
+1
+A car increases its speed by 25%. After that, it again increases its speed by 20%. By what percentage is the car’s final speed greater than its original speed?
+*
+1 point
+25
+30
+45
+50
+Find the value in the place of question mark?
+ 
+ 200^2 + (200/ 200) = ?
+*
+1 point
+400001
+4001
+40001
+20001
+What is the unit digit of 973^234! * 234^973!
+*
+1 point
+7
+6
+2
+9
+Find the value of x:
+ 
+ √x = 0.02
+*
+1 point
+0.04
+0.0004
+0.004
+None of these
+Which one of the following numbers is exactly divisible by 11?
+*
+1 point
+245642
+235641
+315624
+415624
+Karthi sells an article at a profit of 50%. If he had bought it at 40% less and sold it for Rs.21.50 less, He would have gained 60%. Find the cost price of the article.
+*
+1 point
+56
+52
+48
+40
+A starts a business with Rs ‘P’ and 2 months later C joins him with Rs ‘P/2’, 1 month later B also joins him with Rs ‘3P’. The difference between the profit received by A and C at the end of one year is Rs. 9800. What is the difference between the profit received by B and C?
+*
+1 point
+Rs.30000
+Rs.32500
+Rs. 30800
+Rs. 28000
+The sum of three consecutive even numbers is 42. Find the middle number of the three?
+*
+1 point
+Rs. 14
+Rs. 24
+Rs. 16
+Rs. 18
+Two number are in the ratio 3 : 5. If 9 is subtracted from each, the new numbers are in the ratio 12 : 23. The smaller number is __________.
+*
+1 point
+55
+49
+27
+33
+A tradesman gives a 4% discount on the marked price and gives an article free for buying every 15 articles c and thus gains 35 %. find out by what percentage the marked price is above the cost price
+*
+1 point
+0.406
+0.5
+0.396
+0.22
+A digital diary is sold for Rs.935 at a profit of 10%. What would have been the actual profit or loss on it, if it had been sold for Rs.810?
+*
+1 point
+Rs.50
+Rs.45
+Rs.40
+Rs.48
+25.25/2000 is equal to ____________.
+*
+1 point
+0.12625
+0.012625
+1.012526
+0.12526
+What percentage of numbers from 1 to 30 has 1 or 9 in the unit's digit?
+*
+1 point
+15
+121
+22
+20
+The fourth proportional to 5, 8, 15 is _________.
+*
+1 point
+24
+19
+18
+20
+Find the remainder when 359^421 Divided by 6
+*
+1 point
+4
+1
+5
+3
+Shankar sold a horse at a loss of 42.84%. How much percent should he gain in the next transaction so as to make an overall gain of 21.42%, if the two horses are bought at the same price?
+*
+1 point
+0.6426
+1
+1.6426
+0.8568
+A man buys two cycles for a total cost of Rs. 900. By selling one for 4/5 of its cost and other for 5/4 of its cost, he makes a profit of Rs. 90 on the whole transaction. Find the cost price of lower priced cycle.
+*
+1 point
+Rs. 420
+Rs. 360
+Rs.300
+Rs. 250
+The smallest 3 digit prime number is:
+*
+1 point
+103
+101
+113
+109
+The two given numbers A and B are in the ratio of 5:6 such that their LCM is 480. Find their HCF.
+*
+1 point
+12
+16
+18
+13
+A container contains 40 litres of milk. From this container 4 litres of milk was taken out and replaced by water. This process was repeated further two times. How much milk is now contained by the container?
+*
+1 point
+28 litres
+26.34 litres
+27.36 litres
+29.16 litres
+Find the value in the place of question mark?
+ 
+ (26 × 10 - 4 × 17)/ (14 × 14 + 20)
+*
+1 point
+11|36
+14|36
+8|9
+17|6
+In ratio a : b, the first term a is called as _______.
+*
+1 point
+mean
+antecedent
+extreme
+consequent
+If 40% of a number is equal to two-third of another number, what is the ratio of first number to the second number?
+*
+1 point
+2:5
+5:3
+7:3
+3:7
+Two friends, Akash & Beenu had some candies each. One of them had 15 candies more than the other. The candies with Akash were 60% of the total candies with them. How many candies did each have?
+*
+1 point
+40, 25
+49, 34
+47, 32
+45, 30
+Ayesha's father was 38 years of age when she was born while her mother was 36 years old when her brother four years younger to her was born. What is the difference between the ages of her parents?
+*
+1 point
+8 years
+4 years
+6 years
+2 years
+A man is 24 years older than his son. In two years, his age will be twice the age of his son. The present age of his son is _______________.
+*
+1 point
+18 years
+22 years
+20 years
+14 years
+The price of sugar has increased by 20%. Anu has decided to only spend 8% more than she initially did on sugar. Find the percentage by which she needs to reduce the sugar consumption.
+*
+1 point
+12
+14
+10
+16
+In ABC College, 63% of students are less than 20 years of age. The number of students more than 20 years of age is 4 more than 2/3 of number of students of 20 years of age which is 42. What is the total number of students in the ABC College?
+*
+1 point
+200
+130
+75
+90
+A pupil's marks were wrongly entered as 83 instead of 63. Due to that the average marks for the class got increased by half (1/2). The number of pupils in the class is:
+*
+1 point
+40
+70
+20
+10
+The salaries A, B, C are in the ratio 2 : 3 : 5. If the increments of 15%, 10% and 20% are allowed respectively in their salaries, then what will be new ratio of their salaries?
+*
+1 point
+None of these
+Cannot be determined
+3:3:10
+10:11:20
+FIND THE UNIT DIGIT OF 228^40^21
+*
+1 point
+4
+8
+5
+6
+Three partners shared the profit in a business in the ratio 5 : 7 : 8. They had partnered for 14 months, 8 months and 7 months respectively. What was the ratio of their investments?
+*
+1 point
+38 : 28 : 21
+None of these
+20 : 49 : 64
+5 : 7 : 8
+if the sales tax be reduced from 3 1/2% to 3 1/3% what difference does it make to a person who purchases article whose marked price is 4,200?
+*
+1 point
+10
+6
+9
+7
+How much water is to be mixed in 36 litre of milk worth Rs. 5.00 per litre, so that value of mixture is Rs. 3.60 per litre?
+*
+1 point
+12 litres
+14 litres
+10 litres
+11 litres
+The value of
+ (489.1375 x 0.0483 x 1.956)/(0.0873 x 92.581 x 99.749) is closest to
+*
+1 point
+0.6
+6
+0.06
+0.006
+The price of an article is increased by 20% and then decreased by 20%. The final price as compared to the original price is:
+*
+1 point
+4% less
+4% more
+20% less
+20% more
+If 0.75 : x :: 5 : 8, then x is equal to:
+*
+1 point
+1.25
+1.12
+1.2
+1.3
