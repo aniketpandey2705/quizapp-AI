@@ -66,7 +66,9 @@ const processQueue = async () => {
       const apiKey = (bodyApiKey || headerApiKey || null);
 
       if (!apiKey || apiKey === 'undefined' || apiKey === '') {
-        const err = new Error("AI Setup Required: Please ensure your API Key is saved in Settings.");
+        const bodyKeys = Object.keys(req.body || {}).join(', ');
+        const headerKeys = Object.keys(req.headers || {}).join(', ');
+        const err = new Error(`AI Setup Required. (Debug: BodyKeys=[${bodyKeys}], HeaderKeys=[${headerKeys}])`);
         err.status = 401;
         throw err;
       }
